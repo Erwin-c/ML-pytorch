@@ -1,5 +1,5 @@
 """
-  demo_attribute.py
+  attribute.py
 
     Created on: May 9, 2021
         Author: Erwin
