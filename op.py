@@ -113,3 +113,44 @@ print(a)
 print(a.pow_(3))
 
 print(a)
+
+# exp
+print("=== exp res ===")
+
+a = torch.tensor([1, 2], dtype=torch.float32)
+
+print(a)
+print(a.type())
+
+print(torch.exp(a))
+print(torch.exp_(a))
+
+print(a.exp())
+print(a.exp_())
+
+# log
+print("=== log res ===")
+
+a = torch.tensor([10, 2], dtype=torch.float32)
+
+print(a)
+print(a.type())
+
+print(torch.log(a))
+print(torch.log_(a))
+
+print(a.log())
+print(a.log_())
+
+# sqrt
+print("=== sqrt res ===")
+
+a = torch.tensor([10, 2], dtype=torch.float32)
+
+print(a)
+
+print(torch.sqrt(a))
+print(torch.sqrt_(a))
+
+print(a.sqrt())
+print(a.sqrt_())
